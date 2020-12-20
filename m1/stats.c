@@ -155,7 +155,7 @@ unsigned char find_median(unsigned char *temp,int size)
     median=temp[(size-1)/2];
 
   else{
-     median=(temp[(size-1)/2]+temp[(size+1)/2]);
+     median=((temp[(size-1)/2]+temp[(size+1)/2]))/2;
       }
 
   return median;
